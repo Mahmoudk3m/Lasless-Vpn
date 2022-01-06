@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:wght@400;500;700&display=swap');
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+a{
+    text-decoration: none;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/*reset*/
+.container{
+    padding: 0 15px;
+}
+@media screen and (min-width: 576px)
+{
+    .container{
+        max-width: 540px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px)
+{
+    .container{
+        max-width: 720px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 991px)
+{
+    .container{
+        max-width: 960px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1200px)
+{
+    .container{
+        max-width: 1140px;
+        margin: auto;
+    }
+}
+.flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.align-items-center{
+    align-items: center;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.card{
+    width: 330px;
+    height: 760px;
+    background: #ffffff;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.red-btn-gen{
+    width: 150px;
+    height: 45px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F53838;
+}
+p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    max-width:555px ;
+
+}
+.review-card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 230px;
+    background: #f6f6f6;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+}
+.review-card:not(:last-child){
+    margin-right: 50px;
+}
+.small{
+    line-height: 5px;
+    font-size: 14px;
+}
